@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    width: 100%;
+    background: #000000;
+    
+}
+
+.list--item.active {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+
+.logo img{
+    height: 80px;
+    width: 80px;
+    margin-right: 40px;
+}
+
+.list--container{
+    position: fixed;
+    left :420px ;
+}
+
+.list--item{
+    display:inline-flex;
+    text-decoration: none;
+    margin: 0 20px;
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list--item:hover{
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.list--login {
+    position: fixed;
+    right: 0;
+    margin-right: 10px;
+}
+
+.other--item{
+    display: inline-flex;
+    text-decoration: none;
+    margin: 0 10px;
+    border: 1px solid #ffffff;
+    padding: 10px 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.other--item:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.language--select {
+    position: fixed;
+    top: 25px;
+    right: 180px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}

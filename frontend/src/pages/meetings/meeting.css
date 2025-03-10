@@ -1,0 +1,29 @@
+.meeting-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background-color: #f3f4f6;
+  }
+  
+  .meeting-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .meeting-text {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .meeting-timer {
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  

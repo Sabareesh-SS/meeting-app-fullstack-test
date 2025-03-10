@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.content {
+  margin: 20px;
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.meeting-title {
+  color: #7d53f6;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.meetings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.meetingss-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 7px 13px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.meetingss-card p {
+  text-align: left;
+  color: black;
+  font-family: "Poppins";
+}
+
+.meeting-image {
+  width: 100%;
+  height: auto;
+  max-height: 130px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.meeting-text {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #000000;
+}
+
+.no-meetings {
+  text-align: left;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.enter-meeting-button {
+  background-color: #7d53f6;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 35px;
+  width: 150px;
+}

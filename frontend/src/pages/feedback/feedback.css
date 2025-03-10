@@ -1,0 +1,75 @@
+
+.feedback-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.feedback-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+.feedback-list {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: left; 
+  gap: 20px; 
+  padding: 10px;
+}
+
+.feedback-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease-in-out;
+  width: 300px; 
+}
+
+.feedback-card:hover {
+  transform: translateY(-5px);
+}
+
+.feedback-user {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #7D53F6;
+}
+
+p {
+  margin: 5px 0;
+  color: #444;
+}
+
+.no-feedback {
+  font-size: 1.2rem;
+  color: #888;
+  font-style: italic;
+}
+
+
+@media (max-width: 750px) {
+  .feedback-list {
+    justify-content: center; 
+  }
+
+  .feedback-card {
+    width: 90%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .feedback-title {
+    font-size: 1.5rem;
+  }
+
+  .feedback-card {
+    width: 100%; 
+    padding: 12px;
+  }
+}
